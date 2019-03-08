@@ -5,7 +5,7 @@ ejabberd diaspora* auth
 requirements
 ------------
 
-* diaspora* postgres database
+* diaspora* mysql/mariadb database
 * ejabberd server
 * python3 
 
@@ -26,7 +26,7 @@ ejabberd configuration
 
     auth_method: external
     
-    extauth_program: "/usr/bin/diaspora_auth.py"
+    extauth_program: "/usr/bin/ejabber-diaspora_auth.py"
 
 
 
