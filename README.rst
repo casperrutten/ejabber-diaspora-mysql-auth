@@ -16,17 +16,12 @@ features
 * parsing *Diaspora config files for database credentials and pepper
 * support for DIASPORA_DIR environmental variable (_/home/diaspora/diaspora_ by default)
 
-installation
-------------
-
-    pip install ejabberd_diaspora_auth
-
 ejabberd configuration
 ----------------------
 
     auth_method: external
     
-    extauth_program: "/usr/bin/ejabber-diaspora_auth.py"
+    extauth_program: "/path/to/ejabber-diaspora-mysql-auth.py"
 
 
 
